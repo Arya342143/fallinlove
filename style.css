@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-image: url('fall_in_love_bg.jpg');
+  background-size: cover;         /* Ensures it covers the entire screen */
+  background-position: center;   /* Centers the image */
+  background-repeat: no-repeat;  /* Prevents tiling */
+  background-attachment: fixed;  /* Optional: makes it stay fixed on scroll */
+}
+
+#app {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  background-image: url(blurred-valentine-s-day-wallpaper_23-2148819570.avif);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff4d6d;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1f4b;
+}
+
+.rotate {
+  transform: rotate(15deg);
+}
+
+.love-bg {
+  background-image: url('https://i.imgur.com/n8WFGzG.jpg'); /* You can change this to your preferred love image */
+  background-size: cover;
+  background-position: center;
+  color: #ff3366;
+}
+
